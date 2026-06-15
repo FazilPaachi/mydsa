@@ -1,4 +1,4 @@
-def evaluate_sol(functions, test):
+def evaluate_binary_search(functions, test):
     count = 0
     lengthOfTests = len(tests1)
 
