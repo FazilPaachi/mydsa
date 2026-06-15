@@ -1,6 +1,8 @@
 def evaluate_sol(functions, tests):
+    count = 0
+    lengthOfTests = len(tests)
 
-    for i, test in enumerate(tests):
+    for i, test in enumerate(tests):   # ✅ use the parameter name
         result = functions(**test['input'])
 
         print(f"Test Case {i + 1}")
@@ -8,13 +10,17 @@ def evaluate_sol(functions, tests):
         print(f"Got:      {result}")
 
         if result == test['output']:
-            count = count + 1
+            count += 1
             print("PASS")
         else:
             print("FAIL")
 
         print("-" * 20)
 
+    if count == lengthOfTests:
+        print("All test cases passed!")
+    else:
+        print(f"{count} out of {lengthOfTests} test cases passed.")
 
 
 tests = [
