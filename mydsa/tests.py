@@ -1,4 +1,4 @@
-def evaluate(functions, tests):
+def evaluate_sol(functions, tests):
     count = 0
     lengthOfTests = len(tests)
 
