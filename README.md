@@ -94,7 +94,7 @@ mydsa/
 
 ## Author
 
-Muhammed Fazil
+Muhammed Fazil C
 
 ## License
 
