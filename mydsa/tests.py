@@ -1,8 +1,8 @@
 def evaluate_sol(functions, test):
     count = 0
-    lengthOfTests = len(test)
+    lengthOfTests = len(tests1)
 
-    for i, t in enumerate(test): 
+    for i, t in enumerate(tests1): 
         result = functions(**t['input'])
 
         print(f"Test Case {i + 1}")
@@ -23,7 +23,7 @@ def evaluate_sol(functions, test):
         print(f"{count} out of {lengthOfTests} test cases passed.")
 
 
-tests = [
+tests1 = [
 
      {
     'input': {
