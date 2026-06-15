@@ -4,7 +4,6 @@ A lightweight Python package for testing and evaluating Data Structures and Algo
 
 ## Features
 
-- Evaluate single test cases
 - Evaluate multiple test cases
 - Compare expected and actual outputs
 - Useful for practicing coding interview and DSA problems
