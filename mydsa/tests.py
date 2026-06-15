@@ -1,6 +1,6 @@
 def evaluate_sol(functions, tests):
     count = 0
-    lengthOfTests = len(cards)
+    lengthOfTests = len(tests)
 
     for i, test in enumerate(tests):
         result = functions(**test['input'])
