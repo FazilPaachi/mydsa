@@ -3,7 +3,7 @@ def evaluate(functions, tests):
     lengthOfTests = len(tests)
 
     for i, test in enumerate(tests):
-        result = functions(**test['input'])
+        result = functions(**tests['input'])
 
         print(f"Test Case {i + 1}")
         print(f"Expected: {test['output']}")
