@@ -1,15 +1,14 @@
 [build-system]
-require = ["setuptools>61.0"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[projects]
+[project]
 name = "mydsa"
-version = "0.0.1"
-description = "ustilities for testing DSA solutions"
+version = "0.1.0"
+description = "DSA testing utilities"
 readme = "README.md"
+requires-python = ">=3.8"
 
-authors = [ {name= "Muhammed Fazil C"} ]
-
-keywords = ["python", "dsa", "tests", "testing", "algorithms"]
-
-license = { text = "MIT" }
+authors = [
+  { name = "Muhammed Fazil c" }
+]
