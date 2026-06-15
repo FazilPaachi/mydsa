@@ -3,7 +3,7 @@ def evaluate_sol(functions, tests):
     lengthOfTests = len(tests)
 
     for i, test in enumerate(tests):
-        result = functions(**tests['input'])
+        result = functions(**test['input'])
 
         print(f"Test Case {i + 1}")
         print(f"Expected: {test['output']}")
