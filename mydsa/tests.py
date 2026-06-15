@@ -1,15 +1,15 @@
-def evaluate_sol(functions, tests):
+def evaluate_sol(functions, test):
     count = 0
-    lengthOfTests = len(tests)
+    lengthOfTests = len(test)
 
-    for i, test in enumerate(tests):   # ✅ use the parameter name
-        result = functions(**test['input'])
+    for i, t in enumerate(test): 
+        result = functions(**t['input'])
 
         print(f"Test Case {i + 1}")
-        print(f"Expected: {test['output']}")
+        print(f"Expected: {t['output']}")
         print(f"Got:      {result}")
 
-        if result == test['output']:
+        if result == t['output']:
             count += 1
             print("PASS")
         else:
