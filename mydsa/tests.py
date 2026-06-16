@@ -73,6 +73,15 @@ tests1 = [
         'query': 7
     },
     'output': 3
+    },
+    {
+    'input': {
+        'cards': [],
+        'query': 7
+    },
+    'output': -1
     }
+    
+
 ] #list of dictionaries with input and output
 
